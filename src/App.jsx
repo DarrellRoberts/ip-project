@@ -15,7 +15,7 @@ const { Meta } = Card;
 
 const fetchIP  = async () => {
   try {
-    const res = await fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=${import.meta.env.VITE_GEO_IPFY_API_KEY}`);
+    const res = await fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=${import.meta.env.VITE_GOOGLE_MAPS_API_KEY}`);
     const data = await res.json();
     setPosts(data);
   } catch (err) {
