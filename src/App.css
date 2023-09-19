@@ -29,11 +29,11 @@
     width: 75% !important;
   }
 
-  :where(.css-dev-only-do-not-override-1vr7spz).ant-card .ant-card-meta-title {
+  :where(.css-1vr7spz).ant-card .ant-card-meta-title {
     font-size: 1.5rem !important;
   }
 
-  :where(.css-dev-only-do-not-override-1vr7spz).ant-card .ant-card-meta-description {
+  :where(.css-1vr7spz).ant-card .ant-card-meta-description {
     font-size: 0.75rem !important;
   }
 }
@@ -53,11 +53,11 @@ body {
 font-family: 'Roboto';
 }
 
-:where(.css-dev-only-do-not-override-1vr7spz).ant-card .ant-card-meta-description {
+:where(.css-1vr7spz).ant-card .ant-card-meta-description {
   color: white;
   font-size: 1rem
 }
-:where(.css-dev-only-do-not-override-1vr7spz).ant-card .ant-card-meta-title {
+:where(.css-1vr7spz).ant-card .ant-card-meta-title {
   color: white;
   font-size: 3rem;
 }
